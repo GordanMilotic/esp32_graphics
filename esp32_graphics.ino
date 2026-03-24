@@ -21,7 +21,7 @@ void drawPoints(int points[][2], int numPoints) {
       
       if(x == x2 && y == y2) break;
       
-      int e2 = 2 * err;
+      int e2 = 2 * error;
       if(e2 > -dy) { error -= dy; x += sx; }
       if(e2 < dx) { error += dx; y += sy; }
     }
